@@ -1,13 +1,10 @@
 module github.com/rharper-sapient/labeler
 
-go 1.12
+go 1.15
 
 require (
 	github.com/go-yaml/yaml v2.1.0+incompatible
-	github.com/google/go-cmp v0.3.1
 	github.com/google/go-github/v27 v27.0.6
-	github.com/kr/pretty v0.1.0 // indirect
-	github.com/waigani/diffparser v0.0.0-20190828052634-7391f219313d
-	golang.org/x/oauth2 v0.0.0-20180821212333-d2e6202438be
-	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
+	github.com/rharper-sapient/diffparser v1.0.1
+	golang.org/x/oauth2 v0.0.0-20200902213428-5d25da1a8d43
 )

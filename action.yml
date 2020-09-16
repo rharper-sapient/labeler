@@ -1,6 +1,6 @@
 name: 'PR labeler based on multiple rules'
 description: 'Label Pull Requests based on configurable rules'
-author: 'Galo Navarro <anglorvaroa@gmail.com>'
+author: 'Ryan Harper <ryan.harper@pubicissapient.com>'
 inputs: 
   config_path:
     description: 'Path for labeling rules'

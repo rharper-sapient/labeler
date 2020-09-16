@@ -24,7 +24,7 @@ contents:
 		runs-on: ubuntu-latest
 		
 		steps:
-		- uses: srvaroa/labeler@master
+		- uses: ./.github/actions/labeler
 		  env:
 			GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 

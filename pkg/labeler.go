@@ -12,7 +12,7 @@ import (
 	"strings"
 
 	gh "github.com/google/go-github/v27/github"
-	"github.com/waigani/diffparser"
+	"github.com/rharper-sapient/diffparser"
 )
 
 type LabelerConfig map[string]LabelMatcher
