@@ -1,0 +1,7 @@
+TestLabel:
+  title: ".*"
+TestFileMatch:
+  files: 
+    - "cmd/.*.go"
+    - "pkg/.*.go"
+  
